@@ -21,8 +21,15 @@ const getByAnythingAll = document.querySelectorAll(`div`);
 const title = document.querySelector(`#main-heading`);
 title.style.color = `red`;
 
-const itemList = document.querySelectorAll(`.list-items`);
-for (let i = 0; i < itemList.length; ++i)
-{
-    itemList[i].style.color = `blue`;
-}
+// const itemList = document.querySelectorAll(`.list-items`);
+// for (let i = 0; i < itemList.length; ++i)
+// {
+//     itemList[i].style.color = `blue`;
+// }
+
+// creating elements
+const ul = document.querySelector('ul');
+const li = document.createElement(`li`);
+li.innerText = `new txt js`;
+ul.append(li);
+li.setAttribute(`class`, `list-items`);
