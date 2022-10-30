@@ -20,3 +20,13 @@ box1.addEventListener(`mouseover`, () => {
 box1.addEventListener(`mouseout`, () => {
     box1.style.background = oldboxbf;   
 });
+
+const readmorebtn = document.querySelector(`.reveal-text-btn`);
+const textP = document.querySelector(`.text-style`);
+
+readmorebtn.addEventListener(`click`, () => {
+    if (!textP.style.display || textP.style.display === "none")
+        textP.style.display = "block";
+    else
+        textP.style.display = "none";
+});

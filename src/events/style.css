@@ -12,3 +12,7 @@
     border: 2px;
     background-color: red;
 }
+
+.text-style {
+    display: none;
+}
