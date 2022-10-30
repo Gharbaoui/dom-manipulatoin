@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.container {
-    background-color: aqua;
+#sports {
+    width: 50%;
+    text-align: center;
+    background-color:blue;
+}
+#sports > li {
+    color: white;
 }
