@@ -21,6 +21,7 @@ document.querySelector(`.box-1`).addEventListener(`click`, () => {
 
 document.querySelector(`.btn`).addEventListener(`click`, (e) => {
     console.log(`button clicked`);
+    e.preventDefault();
     console.log(e);
 }, false);
 
