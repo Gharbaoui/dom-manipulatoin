@@ -13,7 +13,10 @@ const liTags = document.getElementsByTagName(`li`);
 
 // it will return the first match
 const getByAnything = document.querySelector(`div`);
-console.log(getByAnything);
+// console.log(getByAnything);
 
 const getByAnythingAll = document.querySelectorAll(`div`);
-console.log(getByAnythingAll);
+// console.log(getByAnythingAll);
+
+const title = document.querySelector(`#main-heading`);
+title.style.color = `red`;
