@@ -20,3 +20,9 @@ const getByAnythingAll = document.querySelectorAll(`div`);
 
 const title = document.querySelector(`#main-heading`);
 title.style.color = `red`;
+
+const itemList = document.querySelectorAll(`.list-items`);
+for (let i = 0; i < itemList.length; ++i)
+{
+    itemList[i].style.color = `blue`;
+}
