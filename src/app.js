@@ -33,3 +33,7 @@ const li = document.createElement(`li`);
 li.innerText = `new txt js`;
 ul.append(li);
 li.setAttribute(`class`, `list-items`);
+
+setTimeout(() => {
+    li.removeAttribute(`class`);
+}, 1000);
