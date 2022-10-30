@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: aqua;
+}
+.box-3{
+    width: 50%;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.box-2{
+    width: 50%;
+    padding: 10px;
+    background-color:aquamarine
+}
+.box-1{
+    width: 50%;
+    padding: 10px;
+    background-color:brown;
+}
