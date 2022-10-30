@@ -37,3 +37,8 @@ li.setAttribute(`class`, `list-items`);
 setTimeout(() => {
     li.removeAttribute(`class`);
 }, 1000);
+
+setTimeout(() => {
+    li.classList.add(`list-items`);
+    li.classList.add(`text-background`);
+}, 2000);
