@@ -42,3 +42,10 @@ setTimeout(() => {
     li.classList.add(`list-items`);
     li.classList.add(`text-background`);
 }, 2000);
+
+setTimeout(() => {
+    li.classList.add(`list-items`);
+    li.classList.remove(`text-background`);
+}, 3000);
+
+console.log(li.classList.contains(`text-background`));
