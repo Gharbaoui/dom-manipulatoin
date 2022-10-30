@@ -49,3 +49,7 @@ setTimeout(() => {
 }, 3000);
 
 console.log(li.classList.contains(`text-background`));
+
+setTimeout(() => {
+    li.remove();
+}, 5000);
