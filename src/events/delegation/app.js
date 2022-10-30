@@ -5,8 +5,9 @@
     that adds it to all its present and future desendencts
 */
 
+const ul = document.querySelector(`#sports`);
 
-document.querySelector(`#sports`).addEventListener(`click`, (e) => {
+ul.addEventListener(`click`, (e) => {
     console.log(`you have clicked on ${e.target.getAttribute(`id`)}`);
 
     if (e.target.matches(`li`))
@@ -14,3 +15,12 @@ document.querySelector(`#sports`).addEventListener(`click`, (e) => {
         e.target.style.backgroundColor = "red";
     }
 });
+
+
+
+const li = document.createElement(`li`);
+li.setAttribute('id', "gym");
+
+li.innerText = "rings";
+
+ul.append(li);
